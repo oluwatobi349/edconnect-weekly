@@ -13,8 +13,9 @@
         </nav>
         <main> 
         <h1>Signup</h1>    
-            <form>
-                
+            
+        <form name="program">
+            
                 <div>First Name: <input type="text" name="firstName" /></div>
                 
                 <div>Last Name: <input type="text" name="lastName" /></div>
@@ -25,16 +26,16 @@
                 
                 <div>Matric Number: <input type="text" name="matricNumber" /></div>
           
-                <label for="form-select">Program:</label>
-                <select id="form-select"
+                <label for="program-select">Program:</label>
+                <select name="program" id="program-select">
                 <option value="computer_science">Computer Science</option>
                 <option value="computer_science">Computer Science</option>
                 <option value="computer_information_systems">Computer Information Systems</option>
                 <option value="computer_technology">Computer Technology</option>
-            </select>
+                </select>
 
-                <label for="form-select">Graduation Year:</label>
-                <select id="form-select"
+                <label for="graduationYear-select">Graduation Year:</label>
+                <select name="graduationYear" id="graduationYear-select">
                 <option value="2013">2013</option>
                 <option value="2013">2013</option>
                 <option value="2014">2014</option>
@@ -44,7 +45,7 @@
                 <option value="2018">2018</option>
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
-        </select>
+                </select>
 
                 
         <Input type="submit" name="Submit" />
