@@ -11,40 +11,32 @@
             <a href="createproject.html">Submit</a>
     </head>      
         </nav>
-        <main> 
-        <h3>John Doe</h3>
-        
+        <main>
+        <div> 
+        <h3>John Doe</h3><br>
         <p>john.doe@gmail.com</p>
         <ul>
             <li>Program: Computer Science</li>
             <li>Matric: 00/0000</li>
             <li>Graduation Year: 2019</li>
         </ul>
-
-            <form name="updateProfile">
-                <h2>Update Profile</h2> 
-
-                <div>First Name: <input type="text" name="firstName" /></div>
-                
-                <div>Last Name: <input type="text" name="lastName" /></div>
-                
-                <div>Email Address: <input type="email" name="email" /></div>
-                
-                <div>Password: <input type="password" name="password" /></div>
-                
-                <div>Matric Number: <input type="text" name="matricNumber" /></div>
-          
-                <label for="form-select">Program:</label>
-                <select id name="updateProfile">
-                <option value="computer_science">Computer Science</option>
+        </div>
+        <div>
+            <h2>Update Profile</h2><br>
+        <form name="updateProfile">
+            <label>First Name: <input type="text" name="firstName" /></label><br>                
+            <label>Last Name: <input type="text" name="lastName" /></label><br>
+            <label>Email Address: <input type="email" name="email" /></label><br>               
+            <label>Password: <input type="password" name="password" /></label><br>       
+            <label>Matric Number: <input type="text" name="matricNumber" /></label><br>          
+            <label>Program:</label>
+            <select name="program">
                 <option value="computer_science">Computer Science</option>
                 <option value="computer_information_systems">Computer Information Systems</option>
                 <option value="computer_technology">Computer Technology</option>
-                </select>
-
-                <label for="form-select">Graduation Year:</label>
-                <select id="updateProfile">
-                <option value="2013">2013</option>
+            </select>
+            <label>Graduation Year:</label>
+            <select name="graduationYear">
                 <option value="2013">2013</option>
                 <option value="2014">2014</option>
                 <option value="2015">2015</option>
@@ -53,22 +45,18 @@
                 <option value="2018">2018</option>
                 <option value="2019">2019</option>
                 <option value="2020">2020</option>
-                </select>
-
-                
-        <Input type="submit" name="Submit" />
-
-        <h2>Change Password</h2>
-        <form name="changePassword">
-        <div>Current Password:<input type="password" name="currentPassword"/></div>
-        <div>New Password:<input type="password" name="newPassword"/></div>
-        <div>Confirm Password:<input type="password" name="confirmpassword"/></div>
-        
-
-        <Input type="submit" name="Submit"/>
-        </form>
-
+            </select>    
+            <Input type="submit"/>
             </form>
-        </main>
-    
-</html>
+            </div>
+            <div>
+                <h2>Change Password</h2>
+        <form name="changePassword">
+        <label>Current Password:<input type="password" name="currentPassword"/></label><br>
+        <label>New Password:<input type="password" name="newPassword"/></label><br>
+        <label>Confirm Password:<input type="password" name="confirmpassword"/></label><br>
+        <Input type="submit"/>
+        </form>
+            </div>
+            </main>
+            </html>
